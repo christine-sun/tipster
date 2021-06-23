@@ -31,6 +31,7 @@
 
 // Editing Change on Bill Field
 - (IBAction)updateLabels:(id)sender {
+    // Animation for whether bill field is empty
     if (self.billAmountField.text.length == 0) {
         [self hideLabels];
     } else [self showLabels];
